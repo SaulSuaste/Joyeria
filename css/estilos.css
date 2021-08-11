@@ -61,3 +61,38 @@ p{
     color: purple;
     mix-blend-mode: multiply;
 }
+
+/* ------------------------------------------------ */
+/* Nav */
+/* ------------------------------------------------ */
+
+.menu{
+    background-color: var(--purple-medium);
+    width: 100%;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    z-index: 100;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: italic;
+    margin-bottom: 60px;
+}
+
+.menu a{
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 26px;
+    background-color: var(--purple-medium);
+    margin: 0 10px;
+    transition: 0.5s ease all;
+    color: var(--gray-light);
+    text-decoration: none;
+}
+
+.menu a:hover{
+    transform: translateY(18px);
+    background-color: var(--purple-light);
+}
