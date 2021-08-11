@@ -1,0 +1,28 @@
+/* Letra fuente */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,700&family=Open+Sans:wght@400;700&display=swap');
+
+/* font-family: 'Noto Sans', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --purple-dark: #170312;
+    --purple-medium: #33032d;
+    --purple-light: #531253;
+    --gray-light: #eaeaea;
+    --white: #f4fffd;
+
+}
+
+body{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;;
+}
+
+p{
+    font-size: 22px;
+}
